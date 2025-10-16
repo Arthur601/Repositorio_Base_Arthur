@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Art & Cia</title>
+    <style>
+        /* Reset básico */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+      background-image: url('https://images7.alphacoders.com/335/thumb-1920-335536.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+        }
+
+        header {
+            background: black;
+            border-bottom: 1px solid cyan;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .logo {
+            font-family: 'Pacífico', cursive;
+            font-size: 28px;
+            color: #00eeff;
+            letter-spacing: 2px;
+        }
+
+        .search-bar input {
+            padding: 5px 10px;
+            border: 1px solid #dbdbdb;
+            border-radius: 3px;
+            background: #fafafa;
+            width: 200px;
+            transition: border-color 0.3s ease;
+        }
+
+        .search-bar input:focus {
+            outline: none;
+            border-color: #0095f6;
+            background: white;
+        }
+
+        main {
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        .post {
+            background: cyan;
+            border: 1px solid #dbdbdb;
+            margin-bottom: 20px;
+            border-radius: 20px;
+        }
+
+        .post-header {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+        .post-image {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+            border-top: 1px solid #00ffff;
+            border-bottom: 1px solid #dbdbdb00;
+        }
+
+        .post-actions {
+            padding: 10px;
+            display: flex;
+            align-items:center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Art & Cia</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar" />
+        </div>
+    </header>
+
+    <main>
+            <div class="post-header">
+                <img src="https://images.alphacoders.com/109/thumb-1920-1093511.png" alt="Post" class="post-image" />
+            </div>
+                <img src="https://picfiles.alphacoders.com/621/thumb-1920-621078.jpeg" alt="Post" class="post-image" />
+            </div>
+                <img src="https://images2.alphacoders.com/910/thumb-1920-910289.jpg" alt="Post" class="post-image" />
+            </div>
+                <img src="https://giffiles.alphacoders.com/223/223626.gif" alt="Post" class="post-image" />
+            </div>
+                <img src="https://images5.alphacoders.com/122/thumb-1920-1221852.jpg" alt="Post" class="post-image" />
+            </div>
+                <img src="https://giffiles.alphacoders.com/221/221187.gif" alt="Post" class="post-image" />
+            </div>
+                <img src="https://images2.alphacoders.com/139/thumb-1920-1399913.png" alt="Post" class="post-image" />
+        </div>
+    </main>
+
+</body>
+</html>
